@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#allbooklist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+}
+
+.book img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.book .name {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.book .price {
+    font-size: 16px;
+    color: #666;
+}

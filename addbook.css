@@ -1,0 +1,38 @@
+.login {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 2px 5px 5px black;
+}
+
+.login h4 {
+    font-size: 20px;
+    color: black;
+}
+
+.login .form-select {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.login .input-box {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: rgb(7, 7, 7);
+}
+
+.login button {
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-decoration-color: black;
+}

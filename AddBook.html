@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="addbook.css">
+</head>
+
+<body>
+    <form onsubmit="event.preventDefault(); savebook()">
+        <table class="login">
+            <tr>
+                <th>
+                    <h4>Add New Book</h4>
+                </th>
+            </tr>
+            <tr>
+                <td>Book Name</td>
+            </tr>
+            <tr>
+                <td><input type="text" class="input-box" name="bookname" id="bookname" required></td>
+            </tr>
+            <tr>
+                <td>Price</td>
+            </tr>
+            <tr>
+                <td><input type="phone" class="input-box" name="price" id="price" required></td>
+            </tr>
+            <tr>
+                <td>Book URL</td>
+            </tr>
+            <tr>
+                <td><input type="link" class="input-box" name="link" id="link" required></td>
+            </tr>
+            <tr>
+                <th><button style="background-color: green;">Add Book</button></th>
+            </tr>
+            <tr>
+                <th><button style="background-color: red;" type="reset">Reset</button></th>
+            </tr>
+            <tr>
+                <th id="message"></th>
+            </tr>
+        </table>
+    </form>
+
+    <script src="book.js"></script>
+</body>
+
+</html>
