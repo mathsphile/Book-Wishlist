@@ -32,7 +32,8 @@ function savebook() {
   localStorage.setItem("booklist", JSON.stringify(booklist));
 
   alert("Book Added");
-  window.location.href = "BookList.html";
+  // window.location.href = "BookList.html";
+   window.open("BookList.html", "_blank");  // booklist will open on a new tab
 }
 
 function displayAllBooks() {
@@ -43,7 +44,7 @@ function displayAllBooks() {
 
     for (i = 0; i < booklist.length; i++) {
       temp += '<div class="book">';
-      temp += '<img src="' + booklist[i].link + '" alt="" >';
+      temp += '<img src="' + booklist[i].link + '" alt="" height="70%">';
       temp += '<h4 class="name">' + booklist[i].bookname + "</h4>";
       temp += '<h4 class="price">Rs. ' + booklist[i].price + "</h4>";
       temp += "</div>";
